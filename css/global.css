@@ -1,0 +1,139 @@
+/* cores */
+
+:root {
+  --c0: #fff; 
+  --c1: #e6e6e6;
+  --c2: #ccc;
+  --c3: #b3b3b3;
+  --c4: #999;
+  --c5: #808080;
+  --c6: #666;
+  --c7: #4d4d4d;
+  --c8: #333;
+  --c9: #1a1a1a;
+  --c10: #000;
+  --gd-branco: linear-gradient(#fff, #979797);
+  --gd-preto: linear-gradient(#2d2d2d, #000);
+}
+
+.c0 {
+  color: var(--c0);
+}
+
+.c1 {
+  color: var(--c1);
+}
+
+.c2 {
+  color: var(--c2);
+}
+
+.c3 {
+  color: var(--c3);
+}
+
+.c4 {
+  color: var(--c4);
+}
+
+.c5 {
+  color: var(--c5);
+}
+
+.c6 {
+  color: var(--c6);
+}
+
+.c7 {
+  color: var(--c7);
+}
+
+.c8 {
+  color: var(--c8);
+}
+
+.c9 {
+  color: var(--c9);
+}
+
+.c10 {
+  color: var(--c10);
+}
+
+.gd-branco {
+  background: var(--gd-branco)
+}
+
+.gd-preto {
+  background: var(--gd-preto)
+}
+
+/* personalização ui */
+
+::selection {
+  color: var(--c0);
+  background: var(--c5);
+}
+
+::-webkit-scrollbar {
+  display: none
+}
+
+
+/* fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,500;1,400&display=swap');
+
+.font-1-xxl {
+  font: 500 4.5rem/1.2 'Playfair Display', serif;
+}
+
+.font-1-xl-i {
+  font: 500 4rem/1.2 'Playfair Display', serif;
+  font-style: italic;
+}
+
+.font-2-l {
+  font: 500 2.5rem/1.2 'Lato', sans-serif;
+}
+
+.font-2-m {
+  font: 500 1.25rem/1.5 'Lato', sans-serif;
+}
+
+.font-2-r {
+  font: 400 1.125rem/1.2 'Lato', sans-serif;
+}
+
+/* css reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 4px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(#111, #000) no-repeat;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: var(--c3);
+}

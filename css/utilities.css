@@ -1,0 +1,19 @@
+.botao {
+  display: inline-block;
+  max-width: max-content;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: var(--c10);
+  background: linear-gradient(360deg, var(--c2), transparent) var(--c3);
+  transition: .4s;
+  font: 500 2rem/1.2 'Lato', sans-serif;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: var(--c1);
+  scale: 1.04;
+
+}

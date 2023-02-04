@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.header a li{
+ padding: 8px 16px;
+ border-radius: 4px;
+ transition: .3s ease;
+}
+
+.header a li:hover {
+  background: var(--c10);
+  color: var(--c0);
+  scale: 1.04;
+}
+
+
+
+
+@media (max-width: 700px) {
+  .header {
+    justify-content: center;
+    padding: 20px 20px;
+  }
+
+  .header a li {
+    background: var(--c10);
+    color: var(--c0);
+    font-size: 1.6rem;
+    margin-top: 16px;
+  }
+}
