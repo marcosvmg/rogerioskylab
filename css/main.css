@@ -11,6 +11,7 @@
 
 .main-content {
   grid-column: 2;
+  padding: 20px;
 }
 
 .main p {

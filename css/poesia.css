@@ -1,0 +1,57 @@
+.poesia-bg {
+  background: var(--c9);
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.poesia {
+  display: grid;
+  grid-template-columns:1fr auto ;
+}
+
+.poesia-content {
+  grid-column: 1;
+  display: flex;
+  padding: 60px 120px;
+}
+
+.poesia-content p {
+  line-height: 1.5;
+  position: relative;
+}
+
+.poesia-content p span{
+    font: 500 1.5rem/1.5 'Lato', sans-serif;
+    font-style: italic;
+    position: absolute;
+    right: -30px;
+    bottom: 10px;
+}
+
+.poesia-img {
+  grid-column: 2;
+}
+
+@media (max-width: 1000px) {
+  .poesia {
+    grid-template-columns: 1fr;
+  }
+
+  .poesia-content,
+  .poesia-img {
+    grid-column: 1;
+  }
+
+  .poesia-content {
+  padding: 20px 40px;
+
+  }
+
+  .poesia-content p span{
+    font: 500 0.85rem/1.5 'Lato', sans-serif;
+    font-style: italic;
+    position: absolute;
+    right: -30px;
+    bottom: 5px;
+}
+}
