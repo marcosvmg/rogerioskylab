@@ -96,6 +96,10 @@
 .font-2-l {
   font: 500 2.5rem/1.2 'Lato', sans-serif;
 }
+.font-2-l-i {
+  font: 500 2.5rem/1.2 'Lato', sans-serif;
+  font-style: italic;
+}
 
 .font-2-m {
   font: 500 1.25rem/1.5 'Lato', sans-serif;
@@ -130,10 +134,29 @@ img {
 body {
   font-family: 'Lato', sans-serif;
   background: linear-gradient(#111, #000) no-repeat;
-  height: 100vh;
 }
 
 a {
   text-decoration: none;
   color: var(--c3);
+}
+
+@media (max-width: 500px) {
+  .font-1-xxl {
+    font: 500 3rem/1.2 'Playfair Display', serif;
+  }
+  .font-1-xl-i {
+    font: 500 2rem/1.2 'Playfair Display', serif;
+    font-style: italic;
+  }
+
+  .font-2-l-i {
+    font: 500 1.2rem/1.5 'Lato', sans-serif;
+    font-style: italic;
+  }
+
+  .font-2-m {
+    font: 500 1rem/1.5 'Lato', sans-serif;
+
+  }
 }
