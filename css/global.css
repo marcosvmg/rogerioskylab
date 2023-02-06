@@ -79,6 +79,9 @@
   display: none
 }
 
+body {
+  scroll-behavior: smooth
+}
 
 /* fontes */
 
@@ -142,7 +145,7 @@ a {
   color: var(--c3);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .font-1-xxl {
     font: 500 3rem/1.2 'Playfair Display', serif;
   }
@@ -154,6 +157,9 @@ a {
   .font-2-l-i {
     font: 500 1.2rem/1.5 'Lato', sans-serif;
     font-style: italic;
+  }
+  .font-2-l {
+    font: 500 1.2rem/1.5 'Lato', sans-serif;
   }
 
   .font-2-m {
