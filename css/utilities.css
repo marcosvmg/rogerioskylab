@@ -1,7 +1,7 @@
 .botao-branco{
   display: inline-block;
   max-width: max-content;
-  border-radius: 4px;
+  border-radius: 8px;
   padding: 10px 20px;
   color: var(--c10);
   background: linear-gradient(360deg, var(--c3), transparent) var(--c1);
@@ -15,7 +15,7 @@
 .botao-preto {
   display: inline-block;
   max-width: max-content;
-  border-radius: 4px;
+  border-radius: 8px;
   padding: 10px 20px;
   color: var(--c0);
   background: linear-gradient(360deg, var(--c10), transparent) var(--c9);

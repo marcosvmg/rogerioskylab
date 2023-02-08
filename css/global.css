@@ -106,7 +106,7 @@ body {
 }
 
 .font-2-m {
-  font: 500 1.25rem/1.5 'Lato', sans-serif;
+  font: 600 1.25rem/1.5 'Lato', sans-serif;
 }
 
 .font-2-r {
@@ -167,3 +167,28 @@ a {
 
   }
 }
+
+/* effects */
+
+.fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+.fadeInUp {
+  transform: translate3d(0, 20px, 0);
+}
+.fadeInRight {
+  transform: translate3d(20px, 0, 0);
+}
+.fadeInLeft {
+  transform: translate3d(-20px, 0, 0);
+}
+
+[data-anime] {
+  opacity: 0;
+}
+.anime {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.8s, opacity 0.8s;
+}
+

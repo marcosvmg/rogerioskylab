@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
-  <title>Rogerio Skylab - Biografia</title>
+  <title>Rogerio Skylab</title>
+  <link rel="shortcut icon" href="favicon.svg" type="svg/xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="body-bg">
@@ -14,20 +18,21 @@
       <nav aria-label="primária">
         <ul class="header-nav font-2-m c0">
          <a href="#"><li>Contato</li></a>
+         <a href="#"><li>Biografia</li></a>
         </ul>
       </nav>
   </header>
 
   <main class="container">
-    <div class="main">
-      <div class="main-img"> <img src="assets/gerais/rogerio1.jpg" alt="Rogerio Skylab foto 3 por 4" width="460" height="588"></div>
+    <div class="main ">
+      <div class="main-img fadeInLeft" data-anime="500"> <img src="assets/gerais/rogerio1.jpg" alt="Rogerio Skylab foto 3 por 4" width="460" height="588"></div>
       <div class="main-content">
-        <h1 class="font-1-xxl c0">MAIS DE 28 ANOS NA CARREIRA MUSICAL.</h1>
-        <p class="font-2-r c5">Rogério Tolomei Teixeira, mais conhecido por seu nome artístico Rogério Skylab, é um cantor, compositor, violonista, letrista, poeta, ensaísta, colunista, ator, músico, ex-apresentador de televisão, ex-bancário e produtor de discos brasileiro.</p>
-    <a class="botao-branco" href="#" >Entre em Contato</a>
+        <h1 class="font-1-xxl c0 main-img fadeInRight" data-anime="200" >MAIS DE 28 ANOS NA CARREIRA MUSICAL.</h1>
+        <p class="font-2-r c5 fadeInRight" data-anime="300" >Rogério Tolomei Teixeira, mais conhecido por seu nome artístico Rogério Skylab, é um cantor, compositor, violonista, letrista, poeta, ensaísta, colunista, ator, músico, ex-apresentador de televisão, ex-bancário e produtor de discos brasileiro.</p>
+      <a class="botao-branco fadeInRight" data-anime="400" href="#" >Entre em Contato <img src="assets/icones/setaDireita.svg"></a>
       </div>
     </div>
-    <img class="setaBaixo" src="assets/icones/setaBaixo.svg" alt="">
+    <img class="setaBaixo"  data-anime="700" src="assets/icones/setaBaixo.svg" alt="">
   </main>
 
   <section class="titulo-avulso">
@@ -127,7 +132,7 @@
           <h1 class="font-1-xxl c10">DO BANCO AO ROCK.</h1>
           <p class="font-2-r c6">“Eu vivo uma vida muito confortável. Não dependo do meu trabalho [com a música] para viver, trabalhei no Banco do Brasil durante 28 anos”.</p>
           <p class="font-2-r c6">“Eu era um funcionário medíocre, trabalhava seis horinhas e ‘pernas pra que te quero’ para fazer minhas coisas. Minha vida toda foi assim. Tenho muita gratidão ao Banco, se não fosse isso, não teria produzido minha discografia”</p>
-          <a class="botao-preto" href="#">Conheça mais</a>
+          <a class="botao-preto" href="#">Conheça mais<img src="assets/icones/setaDireita.svg"></a>
         </div>
         <div class="depoimento-img">
           <img src="./assets/gerais/rogerio2.jpg" width="560" height="640" alt="Rogerio ">
@@ -174,5 +179,7 @@
         <div><a class="font-2-m c0" href="index.html">Voltar ao Topo</a></div>
       </div>
     </footer>
+
+    <script src="js/simple-anime.js"></script>
 </body>
 </html>
