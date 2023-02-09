@@ -33,6 +33,12 @@
 }
 
 @media (max-width: 1000px) {
+  
+  .poesia-bg {
+  padding-bottom: 0;
+
+  }
+
   .poesia {
     grid-template-columns: 1fr;
     justify-items: center;
