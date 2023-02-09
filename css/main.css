@@ -61,6 +61,7 @@ animation: down .8s ease-in infinite alternate;
 @media (max-width: 900px) {
   .main {
     grid-template-columns: 1fr;
+    height: 100%;
   }
   .main-img {
     grid-column: 1;
